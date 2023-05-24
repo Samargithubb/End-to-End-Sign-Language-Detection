@@ -1,4 +1,5 @@
-from signLanguage.logger import logging 
+from signLanguage.pipeline.training_pipeline import TrainPipeline
 
-logging.info('THIS IS JUST FOR TESTING')
-
+obj = TrainPipeline()
+obj.run_pipeline()
+print("Training pipeline finished!")
