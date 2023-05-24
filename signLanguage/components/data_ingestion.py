@@ -5,7 +5,7 @@ import zipfile
 from signLanguage.logger import logging
 from signLanguage.exception import SignException
 from signLanguage.entity.config_entity import DataIngestionConfig
-from signLanguage.entity.artifact_entity import DataIngestionArtifact
+from signLanguage.entity.artifacts_entity import DataIngestionArtifact
 import shutil
 
 class DataIngestion:
